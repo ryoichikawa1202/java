@@ -5,7 +5,9 @@ public class forsample {
         System.out.println(" ");
       }
 
-      
+      for(int k = 0; k < (5 - i) * 2 - 1; k++) {
+        System.out.println("*");
+      }
     }
   }
 }
