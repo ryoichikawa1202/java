@@ -8,9 +8,15 @@ public class C49 {
         int a = Integer.parseInt(line);
         int i = 1;
         int s = 0;
+        int m = 0;
         for (int p = 0; p < a; p++) {
-            s = i-a;
-            s += Math.abs(s);
+            int f = sc.nextInt();
+            m = f - i;
+            if (m < 0) {
+                m = -m;
+            }
+            s += m;
+            i = f;
         }
         System.out.println(s);
     }
