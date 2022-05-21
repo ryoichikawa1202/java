@@ -12,5 +12,6 @@ public class D {
         } else {
             System.out.println("NO");
         }
+        sc.close();
   }
 }
